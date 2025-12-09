@@ -250,18 +250,7 @@ print(f'✓ PyTorch: {torch.__version__}')
 print(f'✓ CUDA available: {torch.cuda.is_available()}')
 print(f'✓ GPU: {torch.cuda.get_device_name(0) if torch.cuda.is_available() else \"None\"}')
 "
-```
 
-### Run Demo (if video data available)
-
-```bash
-cd DPVO
-python demo.py --imagedir=movies/IMG_0492.MOV --calib=calib/iphone.txt --stride=5 --plot
-```
-
-**Note**: Omit `--viz` flag if you haven't installed the Pangolin Viewer.
-
----
 
 ## Common Issues and Solutions
 
